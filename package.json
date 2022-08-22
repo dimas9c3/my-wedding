@@ -16,10 +16,10 @@
     "postcss": "^8.2.1",
     "react": "17.0.1",
     "react-dom": "17.0.1",
-    "tailwindcss": "^2.0.1"
+    "tailwindcss": "^2.0.1",
+    "babel-plugin-inline-react-svg": "^1.1.2"
   },
   "devDependencies": {
-    "all-contributors-cli": "^6.20.0",
-    "babel-plugin-inline-react-svg": "^1.1.2"
+    "all-contributors-cli": "^6.20.0"
   }
 }
