@@ -42,5 +42,8 @@ yarn-error.log*
 **/public/worker-*.js.map
 
 _static
-
 package-lock.json
+.htaccess
+app.js
+ecosystem.config.js
+tmp/
