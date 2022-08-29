@@ -4,7 +4,6 @@ import Ring from '../public/assets/icons/ring.svg';
 import Location from '../public/assets/icons/location.svg';
 
 const Content = () => {
-
   return (
     <div>
       <Layout>
@@ -33,10 +32,12 @@ const Content = () => {
           <div className="flex flex-col text-white px-8 pb-20 pt-28 justify-end">
             <div className="flex flex-col text-center my-auto">
               <p>
-                “And of His signs is that He created for you from your selves
-                mates that you may find tranquility in them; and He placed
-                between you affection and mercy. Indeed in that are signs for a
-                people who give thought.”
+                “Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan
+                pasangan-pasangan untukmu dari jenismu sendiri, agar kamu
+                cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di
+                antaramu rasa kasih dan sayang. Sungguh, pada yang demikian itu
+                benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum
+                yang berpikir.”
               </p>
               <p>( QS. Ar- Rum 21 )</p>
             </div>
@@ -112,14 +113,19 @@ const Content = () => {
               </div>
             </div>
             <p className="hidden md:block mt-12 lg:mt-auto mx-auto text-lg text-white font-habibi">
-              Bertempat di mempelai laki-laki, Gatak RT 2/9, Ngesrep, Ngemplak, Boyolali
+              Bertempat di mempelai laki-laki, Gatak RT 2/9, Ngesrep, Ngemplak,
+              Boyolali
             </p>
 
             {/* <div dangerouslySetInnerHTML={{__html: `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.4336707624366!2d110.73154731415133!3d-7.5275866763758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x62d554496cee3519!2zN8KwMzEnMzkuMyJTIDExMMKwNDQnMDEuNSJF!5e0!3m2!1sen!2sid!4v1660967088251!5m2!1sen!2sid" width="600" height="355" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`}}>
             </div> */}
           </div>
           <div className="flex mx-auto h-32 lg:h-full items-start lg:items-end justify-start w-full px-8">
-            <a className="flex justify-center items-center mx-auto" href="https://www.google.com/maps/place/7%C2%B031'39.3%22S+110%C2%B044'01.5%22E/@-7.5275867,110.7315473,17z/data=!3m1!4b1!4m6!3m5!1s0x0:0x62d554496cee3519!7e2!8m2!3d-7.5275922!4d110.7337359" target="_blank">
+            <a
+              className="flex justify-center items-center mx-auto"
+              href="https://www.google.com/maps/place/7%C2%B031'39.3%22S+110%C2%B044'01.5%22E/@-7.5275867,110.7315473,17z/data=!3m1!4b1!4m6!3m5!1s0x0:0x62d554496cee3519!7e2!8m2!3d-7.5275922!4d110.7337359"
+              target="_blank"
+            >
               <button className="mt-6 px-6 md:px-12 py-2 md:py-3 flex justify-center items-center border-white border rounded-l-full rounded-r-full mx-auto text-white font-habibi text-sm  md:text-base">
                 <Location className="h-8 md:h-10 w-8 md:w-10 mr-4" />
                 Cek Lokasi
@@ -192,6 +198,6 @@ const Content = () => {
       </Layout>
     </div>
   );
-}
+};
 
 export default Content;
