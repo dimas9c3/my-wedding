@@ -57,6 +57,7 @@ const Content = () => {
               objectFit="cover"
               quality={100}
               loading="lazy"
+              placeholder="blur"
             />
           </div>
         </section>
@@ -161,6 +162,7 @@ const Content = () => {
               objectFit="cover"
               quality={100}
               loading="lazy"
+              placeholder="blur"
             />
           </div>
           <div className="flex row-span-1 col-start-2 lg:col-start-3 row-start-2  lg:row-span-2">
@@ -172,6 +174,7 @@ const Content = () => {
               objectFit="cover"
               quality={100}
               loading="lazy"
+              placeholder="blur"
             />
           </div>
           <div className="flex row-span-1 lg:row-span-3">
@@ -183,6 +186,7 @@ const Content = () => {
               objectFit="cover"
               quality={100}
               loading="lazy"
+              placeholder="blur"
             />
           </div>
           <div className="flex row-span-2 lg:row-span-2 col-span-2 lg:col-span-1 w-full relative">
@@ -193,6 +197,7 @@ const Content = () => {
               objectFit="cover"
               quality={100}
               loading="lazy"
+              placeholder="blur"
             />
           </div>
         </section>
