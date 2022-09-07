@@ -43,6 +43,7 @@ yarn-error.log*
 
 _static
 package-lock.json
+yarn.lock
 .htaccess
 app.js
 ecosystem.config.js

@@ -11,7 +11,7 @@ const Content = () => {
         <section
           id="beranda"
           className="flex lg:hidden bg-cover bg-center  w-full h-screen  items-start py-14"
-          style={{ backgroundImage: 'url(/assets/prewedding-home.png)' }}
+          style={{ backgroundImage: 'url(/assets/prewedding-home.jpg)' }}
         >
           <div className="flex flex-col  w-full relative">
             <div className="absolute h-full w-full main-color bg-blur-2px"></div>
@@ -51,7 +51,7 @@ const Content = () => {
           </div>
           <div className="flex w-full relative">
             <Image
-              src="/assets/prewedding-home.png"
+              src="/assets/prewedding-home.jpg"
               alt="Picture of the author"
               layout="fill"
               objectFit="cover"
@@ -142,18 +142,19 @@ const Content = () => {
           </h1>
           <div className="flex row-span-3 ">
             <Image
-              src="/assets/gallery-mobile/photo-1.png"
+              src="/assets/gallery-mobile/photo-1.jpg"
               alt="Picture of the author"
               width={500}
               height={500}
               objectFit="cover"
               quality={100}
               loading="lazy"
+              placeholder="blur"
             />
           </div>
-          <div className="flex  row-start-3 col-start-2 row-span-3 lg:row-span-5 bg-white">
+          <div className="flex row-start-3 col-start-2 row-span-3 lg:row-span-5 bg-white">
             <Image
-              src="/assets/gallery-mobile/photo-2.png"
+              src="/assets/gallery-mobile/photo-2.jpg"
               alt="Picture of the author"
               width={500}
               height={500}
@@ -164,7 +165,7 @@ const Content = () => {
           </div>
           <div className="flex row-span-1 col-start-2 lg:col-start-3 row-start-2  lg:row-span-2">
             <Image
-              src="/assets/gallery-mobile/photo-3.png"
+              src="/assets/gallery-mobile/photo-3.jpg"
               alt="Picture of the author"
               width={500}
               height={500}
@@ -175,7 +176,7 @@ const Content = () => {
           </div>
           <div className="flex row-span-1 lg:row-span-3">
             <Image
-              src="/assets/gallery-mobile/photo-4.png"
+              src="/assets/gallery-mobile/photo-4.jpg"
               alt="Picture of the author"
               width={500}
               height={500}
@@ -186,7 +187,7 @@ const Content = () => {
           </div>
           <div className="flex row-span-2 lg:row-span-2 col-span-2 lg:col-span-1 w-full relative">
             <Image
-              src="/assets/gallery-mobile/photo-5.png"
+              src="/assets/gallery-mobile/photo-5.jpg"
               alt="Picture of the author"
               layout="fill"
               objectFit="cover"
