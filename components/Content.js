@@ -67,26 +67,25 @@ const Content = () => {
           <div className="flex flex-col  w-full relative lg:h-full">
             <div className="absolute h-full w-full main-color bg-blur-2px lg:hidden"></div>
             <div className="flex flex-col w-full text-white text-center h-auto px-8 z-10 lg:my-auto">
-            <div className="flex flex-col text-white px-8 justify-end lg:hidden">
-            <div className="flex flex-col text-center my-auto">
-              <p>
-                “Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan
-                pasangan-pasangan untukmu dari jenismu sendiri, agar kamu
-                cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di
-                antaramu rasa kasih dan sayang. Sungguh, pada yang demikian itu
-                benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum
-                yang berpikir.”
-              </p>
-              <p>( QS. Ar- Rum 21 )</p>
-            </div>
-            <div className="flex flex-col pt-6">
-              <p className="font-habibi font-bold">Pernikahan dari</p>
-              <h4 className="font-great-vibes text-5xl mb-4 mt-6">
-                Dimas & Intan
-              </h4>
-              <p className="font-habibi ml-auto">02 Oktober 2022</p>
-            </div>
-          </div>
+              <div className="flex flex-col text-white px-8 justify-end lg:hidden">
+                <div className="flex flex-col text-center my-auto">
+                  <p>
+                    “Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia
+                    menciptakan pasangan-pasangan untukmu dari jenismu sendiri,
+                    agar kamu cenderung dan merasa tenteram kepadanya, dan Dia
+                    menjadikan di antaramu rasa kasih dan sayang. Sungguh, pada
+                    yang demikian itu benar-benar terdapat tanda-tanda
+                    (kebesaran Allah) bagi kaum yang berpikir.”
+                  </p>
+                  <p>( QS. Ar- Rum 21 )</p>
+                </div>
+                <div className="flex flex-col pt-6">
+                  <p className="font-habibi font-bold">Pernikahan dari</p>
+                  <h4 className="font-great-vibes text-5xl mt-6">Dimas</h4>
+                  <h4 className="font-great-vibes text-5xl">&</h4>
+                  <h4 className="font-great-vibes text-5xl mt-1">Intan</h4>
+                </div>
+              </div>
             </div>
           </div>
           <div className="flex w-full px-8 text-white font-habibi text-sm md:text-base lg:text-xl">
@@ -101,60 +100,59 @@ const Content = () => {
               <p>Ibu Ety Supiyati</p>
             </div>
           </div>
-          <div className="flex flex-col mx-auto h-40 lg:h-full items-center justify-center w-full px-8">
-            <div className="flex flex-col md:flex-row w-full">
-              {/* <div className="flex w-full my-2 h-16 lg:h-20 md:justify-center">
-                <Ring className="h-12 md:h-16 w-12 md:w-16  mr-6 my-auto" />
-                <div className="flex flex-col text-white font-habibi justify-between h-full">
-                  <p className="text-base md:text-lg lg:text-3xl">
-                    Akad pernikahan{' '}
-                  </p>
-                  <p className="text-xs md:text-base lg:text-lg">
-                    Pukul 08.00 s.d 10.00 WIB
-                  </p>
-                </div>
-              </div> */}
-              <div className="flex w-full my-2 h-16 lg:h-20 md:justify-center">
-                <img
-                  src="/assets/icons/resepsi.svg"
-                  className="h-12 md:h-16 w-12 md:w-16  mr-6 my-auto"
-                />
-                <div className="flex flex-col text-white font-habibi justify-between h-full">
-                  <p className="text-base md:text-lg lg:text-3xl">Resepsi </p>
-                  <p className="text-xs md:text-base lg:text-lg">
-                    Pukul 10.00 s.d Selesai
-                  </p>
-                </div>
+          <div className="flex flex-col pt-6">
+            <div className="flex my-2 h-16 lg:h-20 justify-center">
+              <img
+                src="/assets/icons/resepsi.svg"
+                className="h-12 md:h-16 w-12 md:w-16  mr-6 my-auto"
+              />
+              <div className="flex flex-col text-white font-habibi justify-between h-full">
+                <p className="text-base md:text-lg lg:text-3xl mb-0">Resepsi</p>
+                <p className="text-xs md:text-base lg:text-lg">
+                  02 Oktober 2022
+                </p>
+                <p className="text-xs md:text-base lg:text-lg">
+                  Pukul 10.00 s.d Selesai
+                </p>
               </div>
             </div>
-            <p className="hidden md:block mt-12 lg:mt-auto mx-auto text-lg text-white font-habibi">
-              Bertempat di mempelai laki-laki, Gatak RT 2/9, Ngesrep, Ngemplak,
-              Boyolali
+          </div>
+          <div className="flex flex-col w-full text-white text-center h-auto px-8 z-10 lg:my-auto">
+            <p className="md:block mt-1 lg:mt-auto mx-auto text-sm text-white font-habibi">
+              Bertempat di kediaman mempelai laki-laki, Gatak RT 2/9, Ngesrep,
+              Ngemplak, Boyolali
             </p>
+          </div>
 
-            {/* <div dangerouslySetInnerHTML={{__html: `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.4336707624366!2d110.73154731415133!3d-7.5275866763758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x62d554496cee3519!2zN8KwMzEnMzkuMyJTIDExMMKwNDQnMDEuNSJF!5e0!3m2!1sen!2sid!4v1660967088251!5m2!1sen!2sid" width="600" height="355" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`}}>
-            </div> */}
-          </div>
-          <div className="flex mx-auto lg:h-full items-start lg:items-end justify-start w-full px-8">
-            <a
-              className="flex justify-center items-center mx-auto"
-              href="https://www.google.com/maps/place/7%C2%B031'39.3%22S+110%C2%B044'01.5%22E/@-7.5275867,110.7315473,17z/data=!3m1!4b1!4m6!3m5!1s0x0:0x62d554496cee3519!7e2!8m2!3d-7.5275922!4d110.7337359"
-              target="_blank"
-            >
-              <button className="px-6 flex justify-center items-center border-white border rounded-l-full rounded-r-full mx-auto text-white font-habibi text-sm  md:text-base">
-                <Location className="h-8 md:h-10 w-8 md:w-10 mr-4" />
-                Cek Lokasi
-              </button>
-            </a>
-          </div>
+          {/* <div
+            className="md:hidden flex flex-col w-full text-white text-center h-auto px-8 block"
+            dangerouslySetInnerHTML={{
+              __html: `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.433701563392!2d110.73375!3d-7.5275833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x62d554496cee3519!2zN8KwMzEnMzkuMyJTIDExMMKwNDQnMDEuNSJF!5e0!3m2!1sen!2sid!4v1662640427806!5m2!1sen!2sid" height="230" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`,
+            }}
+          ></div>
+          <div
+            className="invisible md:visible flex flex-col w-full text-white text-center h-auto px-8 block"
+            dangerouslySetInnerHTML={{
+              __html: `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.433701563392!2d110.73375!3d-7.5275833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x62d554496cee3519!2zN8KwMzEnMzkuMyJTIDExMMKwNDQnMDEuNSJF!5e0!3m2!1sen!2sid!4v1662640427806!5m2!1sen!2sid" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`,
+            }}
+          ></div> */}
+
+          <a
+            className="justify-center items-center mx-auto"
+            href="https://www.google.com/maps/place/7%C2%B031'39.3%22S+110%C2%B044'01.5%22E/@-7.5275867,110.7315473,17z/data=!3m1!4b1!4m6!3m5!1s0x0:0x62d554496cee3519!7e2!8m2!3d-7.5275922!4d110.7337359"
+            target="_blank"
+          >
+            <button className="px-6 flex justify-center items-center border-white border rounded-l-full rounded-r-full mx-auto text-white font-habibi text-sm  md:text-base">
+              <Location className="h-8 md:h-10 w-8 md:w-10 mr-4" />
+              Cek Lokasi
+            </button>
+          </a>
         </section>
         <section
           id="gallery"
-          className="main-color pt-8 md:pt-0 lg:pt-32 pb-24 lg:pb-8 grid grid-flow-row gap-4 grid-rows-7 lg:grid-rows-5 grid-cols-2 lg:grid-cols-3 h-screen px-4 lg:px-8"
+          className="main-color inline-block pt-8 md:pt-0 lg:pt-32 pb-24 lg:pb-8 grid grid-flow-row gap-4 grid-rows-7 lg:grid-rows-5 grid-cols-2 lg:grid-cols-3 h-screen px-4 lg:px-8"
         >
-          <h1 className="col-span-2  text-5xl font-great-vibes my-auto mx-auto text-white lg:hidden">
-            Gallery
-          </h1>
+          <h1 className="col-span-2  text-5xl font-great-vibes my-auto mx-auto text-white lg:hidden"></h1>
           <div className="flex row-span-3 ">
             <Image
               src="/assets/gallery-mobile/photo-1.jpg"
