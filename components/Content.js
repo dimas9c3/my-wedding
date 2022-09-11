@@ -1,8 +1,27 @@
+import { useEffect } from 'react';
 import Image from 'next/image';
 import Layout from '@/components/Layout/Layout';
 import Location from '../public/assets/icons/location.svg';
 
 const Content = () => {
+  useEffect(() => {
+    const audio = new Audio('/assets/bgm.mp3');
+    audio.load();
+
+    const audioPromise = audio.play();
+    if (audioPromise !== undefined) {
+      audioPromise
+        .then((_) => {
+          audio.loop = true;
+          // autoplay started
+        })
+        .catch((err) => {
+          // catch dom exception
+          console.info(err);
+        });
+    }
+  });
+
   return (
     <div>
       <Layout>
@@ -95,7 +114,7 @@ const Content = () => {
               <p>Ibu Siti Sholihah</p>
             </div>
             <div className="flex flex-col w-1/2 text-center px-2 break-words ">
-              <p>Putra dari</p>
+              <p>Putri dari</p>
               <p>Bapak Muhasyim</p>
               <p>Ibu Ety Supiyati</p>
             </div>

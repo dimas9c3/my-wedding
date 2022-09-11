@@ -38,6 +38,15 @@ module.exports = {
 
         7: 'repeat(7, minmax(0, 1fr))',
       },
+      animation: {
+        fade: 'fadeOut .9s ease-in-out',
+      },
+      keyframes: (theme) => ({
+        fadeOut: {
+          '0%': { backgroundColor: theme('colors.amber.300') },
+          '100%': { backgroundColor: theme('colors.transparent') },
+        },
+      }),
     },
   },
   variants: {},
