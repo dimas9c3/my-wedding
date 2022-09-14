@@ -142,19 +142,12 @@ const Content = () => {
               Ngemplak, Boyolali
             </p>
           </div>
-
-          {/* <div
-            className="md:hidden flex flex-col w-full text-white text-center h-auto px-8 block"
-            dangerouslySetInnerHTML={{
-              __html: `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.433701563392!2d110.73375!3d-7.5275833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x62d554496cee3519!2zN8KwMzEnMzkuMyJTIDExMMKwNDQnMDEuNSJF!5e0!3m2!1sen!2sid!4v1662640427806!5m2!1sen!2sid" height="230" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`,
-            }}
-          ></div>
           <div
-            className="invisible md:visible flex flex-col w-full text-white text-center h-auto px-8 block"
+            className="hidden flex flex-col w-full text-white text-center h-auto px-8 block"
             dangerouslySetInnerHTML={{
               __html: `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.433701563392!2d110.73375!3d-7.5275833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x62d554496cee3519!2zN8KwMzEnMzkuMyJTIDExMMKwNDQnMDEuNSJF!5e0!3m2!1sen!2sid!4v1662640427806!5m2!1sen!2sid" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`,
             }}
-          ></div> */}
+          ></div>
 
           <a
             className="justify-center items-center mx-auto"
