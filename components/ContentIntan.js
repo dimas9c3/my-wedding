@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Layout from '@/components/Layout/Layout';
 import Location from '../public/assets/icons/location.svg';
 
-const Content = () => {
+const ContentIntan = () => {
   useEffect(() => {
     const audio = new Audio('/assets/bgm.mp3');
     audio.load();
@@ -61,9 +61,9 @@ const Content = () => {
             <div className="flex flex-col ">
               <p className="font-habibi">Pernikahan dari</p>
               <h4 className="font-great-vibes text-5xl mb-4 mt-6">
-                Dimas & Intan
+                Intan & Dimas
               </h4>
-              <p className="font-habibi ml-auto">02 Oktober 2022</p>
+              <p className="font-habibi ml-auto">01 Oktober 2022</p>
             </div>
           </div>
           <div className="flex w-full relative">
@@ -100,23 +100,40 @@ const Content = () => {
                 </div>
                 <div className="flex flex-col pt-6">
                   <p className="font-habibi font-bold">Pernikahan dari</p>
-                  <h4 className="font-great-vibes text-5xl mt-6">Dimas</h4>
+                  <h4 className="font-great-vibes text-5xl mt-6">Intan</h4>
                   <h4 className="font-great-vibes text-5xl">&</h4>
-                  <h4 className="font-great-vibes text-5xl mt-1">Intan</h4>
+                  <h4 className="font-great-vibes text-5xl mt-1">Dimas</h4>
                 </div>
               </div>
             </div>
           </div>
           <div className="flex w-full px-8 text-white font-habibi text-sm md:text-base lg:text-xl">
+            <div className="flex flex-col w-1/2 text-center px-2 break-words ">
+              <p>Putri dari</p>
+              <p>Bapak Muhasyim</p>
+              <p>Ibu Ety Supiyati</p>
+            </div>
             <div className="flex flex-col w-1/2 text-center px-2 break-words">
               <p>Putra dari</p>
               <p>Bapak Mulyoso</p>
               <p>Ibu Siti Sholihah</p>
             </div>
-            <div className="flex flex-col w-1/2 text-center px-2 break-words ">
-              <p>Putri dari</p>
-              <p>Bapak Muhasyim</p>
-              <p>Ibu Ety Supiyati</p>
+          </div>
+          <div className="flex flex-col pt-6">
+            <div className="flex my-2 h-16 lg:h-20 justify-center">
+              <img
+                src="/assets/icons/ring.svg"
+                className="h-12 md:h-16 w-12 md:w-16  mr-6 my-auto"
+              />
+              <div className="flex flex-col text-white font-habibi justify-between h-full">
+                <p className="text-base md:text-lg lg:text-3xl mb-0">Ijab Qabul</p>
+                <p className="text-xs md:text-base lg:text-lg">
+                  01 Oktober 2022
+                </p>
+                <p className="text-xs md:text-base lg:text-lg">
+                  Pukul 08.00 s.d Selesai
+                </p>
+              </div>
             </div>
           </div>
           <div className="flex flex-col pt-6">
@@ -128,30 +145,29 @@ const Content = () => {
               <div className="flex flex-col text-white font-habibi justify-between h-full">
                 <p className="text-base md:text-lg lg:text-3xl mb-0">Resepsi</p>
                 <p className="text-xs md:text-base lg:text-lg">
-                  02 Oktober 2022
+                  01 Oktober 2022
                 </p>
                 <p className="text-xs md:text-base lg:text-lg">
-                  Pukul 09.30 s.d Selesai
+                  Pukul 10.00 s.d Selesai
                 </p>
               </div>
             </div>
           </div>
           <div className="flex flex-col w-full text-white text-center h-auto px-8 z-10 lg:my-auto">
             <p className="md:block mt-1 lg:mt-auto mx-auto text-sm text-white font-habibi">
-              Bertempat di kediaman mempelai laki-laki, Gatak RT 2/9, Ngesrep,
-              Ngemplak, Boyolali
+              Bertempat di Gedung Kartini, Jalan Sukowati, Sragen Tengah, Kec. Sragen, Kabupaten Sragen
             </p>
           </div>
           <div
             className="flex flex-col w-full text-white text-center h-auto px-8 block my-2"
             dangerouslySetInnerHTML={{
-              __html: `<iframe class="w-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.433701563392!2d110.73375!3d-7.5275833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x62d554496cee3519!2zN8KwMzEnMzkuMyJTIDExMMKwNDQnMDEuNSJF!5e0!3m2!1sen!2sid!4v1662640427806!5m2!1sen!2sid" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`,
+              __html: `<iframe class='w-full' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.318868541992!2d111.00421251415032!3d-7.429922075254474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a035112f8366f%3A0x90e13b9544290031!2sGEDUNG%20KARTINI!5e0!3m2!1sen!2sid!4v1663293530858!5m2!1sen!2sid" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`,
             }}
           ></div>
 
           <a
             className="justify-center items-center mx-auto"
-            href="https://www.google.com/maps/place/7%C2%B031'39.3%22S+110%C2%B044'01.5%22E/@-7.5275867,110.7315473,17z/data=!3m1!4b1!4m6!3m5!1s0x0:0x62d554496cee3519!7e2!8m2!3d-7.5275922!4d110.7337359"
+            href="https://www.google.com/maps/place/GEDUNG+KARTINI/@-7.4299221,111.0042125,17z/data=!3m1!4b1!4m5!3m4!1s0x2e7a035112f8366f:0x90e13b9544290031!8m2!3d-7.429902!4d111.0065469"
             target="_blank"
           >
             <button className="px-6 flex justify-center items-center border-white border rounded-l-full rounded-r-full mx-auto text-white font-habibi text-sm  md:text-base">
@@ -230,4 +246,4 @@ const Content = () => {
   );
 };
 
-export default Content;
+export default ContentIntan;
