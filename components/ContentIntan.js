@@ -131,7 +131,7 @@ const ContentIntan = () => {
                   01 Oktober 2022
                 </p>
                 <p className="text-xs md:text-base lg:text-lg">
-                  Pukul 08.00 s.d Selesai
+                  Pukul 09.00 s.d Selesai
                 </p>
               </div>
             </div>
