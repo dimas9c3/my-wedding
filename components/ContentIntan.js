@@ -63,7 +63,7 @@ const ContentIntan = () => {
               <h4 className="font-great-vibes text-5xl mb-4 mt-6">
                 Intan & Dimas
               </h4>
-              <p className="font-habibi ml-auto">01 Oktober 2022</p>
+              <p className="font-habibi ml-auto">Hari Sabtu, 01 Oktober 2022</p>
             </div>
           </div>
           <div className="flex w-full relative">
@@ -128,7 +128,7 @@ const ContentIntan = () => {
               <div className="flex flex-col text-white font-habibi justify-between h-full">
                 <p className="text-base md:text-lg lg:text-3xl mb-0">Ijab Qabul</p>
                 <p className="text-xs md:text-base lg:text-lg">
-                  01 Oktober 2022
+                  Hari Sabtu, 01 Oktober 2022
                 </p>
                 <p className="text-xs md:text-base lg:text-lg">
                   Pukul 09.00 s.d Selesai
@@ -145,7 +145,7 @@ const ContentIntan = () => {
               <div className="flex flex-col text-white font-habibi justify-between h-full">
                 <p className="text-base md:text-lg lg:text-3xl mb-0">Resepsi</p>
                 <p className="text-xs md:text-base lg:text-lg">
-                  01 Oktober 2022
+                  Hari Sabtu, 01 Oktober 2022
                 </p>
                 <p className="text-xs md:text-base lg:text-lg">
                   Pukul 10.00 s.d Selesai

@@ -13,7 +13,7 @@ export default function Home() {
         <meta name="theme-color" content="#0f172a00" />
         <meta
           name="description"
-          content="Mengundang Saudara/Saudari Untuk Menghadiri Pernikahan Dimas & Intan Pada 1 Oktober 2022"
+          content="Mengundang Saudara/Saudari Untuk Menghadiri Pernikahan Dimas & Intan Pada Hari Sabtu, 1 Oktober 2022"
         />
         <meta name="keywords" content="Wedding, Dimas, Intan" />
         <meta name="author" content="Dimas Hermawan" />
@@ -28,7 +28,7 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta
           property="og:description"
-          content="Mengundang Saudara/Saudari Untuk Menghadiri Pernikahan Dimas & Intan Pada 1 Oktober 2022"
+          content="Mengundang Saudara/Saudari Untuk Menghadiri Pernikahan Dimas & Intan Pada Hari Sabtu, 1 Oktober 2022"
         />
         <meta property="og:site_name" content="wedding.dimashermawan.com" />
         <meta property="og:url" content="http://wedding.dimashermawan.com/" />
